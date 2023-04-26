@@ -1,13 +1,14 @@
-  <script>
-    export default {
-      name : "AppTitle",
-      data () {
-        return {
-          title : "La mia prima app con Vite!"
-        }
+<script>
+  export default {
+    name : "AppTitle",
+    
+    data() {
+      return {
+        title : "La mia prima app con Vite!"
       }
     }
-  </script>
+  }
+</script>
 
 <template>
   <h1>{{ title }}</h1>
@@ -15,7 +16,7 @@
 
 <style scoped>
   h1 {
-    text-align: center;
+    text-align : center;
     margin : 50px 0;
     color : white;
   }
